@@ -23,6 +23,7 @@ body {
 
 .dice-col {
     display: inline-block;
+    text-align: center;
 }
 
 .left-col {
@@ -36,4 +37,44 @@ body {
 .dice-col h3 {
     font-family: 'Caveat', cursive;
     font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+/* Dice Sprites */
+
+.die-one {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) 0 0;
+}
+
+.die-two {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) -128px 0;
+}
+
+.die-three {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) -256px 0;
+}
+
+.die-four {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) -384px 0;
+}
+
+.die-five {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) -512px 0;
+}
+
+.die-six {
+    width:128px;
+    height:128px;
+    background: url(images/die.png) 128px 0;
 }

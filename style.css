@@ -16,6 +16,20 @@ body {
     font-size: 4rem;
 }
 
+.crown-left{
+    width: 4%;
+    position: relative;
+    right: 35px;
+    top: -10px;
+}
+
+.crown-right{
+    width: 4%;
+    position: relative;
+    left: 35px;
+    top: -10px;
+}
+
 .button {
     margin: 5% auto 1%;
     display: block;

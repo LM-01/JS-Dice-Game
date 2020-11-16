@@ -32,10 +32,10 @@ function applyStyle(){
         }
     
     if(roll[0] > roll[1]) {
-        heading.textContent = "Player 1 Wins!"
+        heading.innerHTML = "<img src='images/crown_PNG16.png' class='crown-left'> Player 1 Wins!"
     } else if (roll[0] === roll[1]) {
         heading.textContent = "Draw!"
     } else {
-        heading.textContent = "Player 2 Wins!"
+        heading.innerHTML = "Player 2 Wins! <img src='images/crown_PNG16.png' class='crown-right'>"
     }
 }

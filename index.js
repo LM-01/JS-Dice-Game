@@ -1,6 +1,7 @@
 const dieOne = document.querySelector("#dieOne");
 const dieTwo = document.querySelector("#dieTwo");
 const button = document.querySelector("#rollthedice");
+const heading = document.querySelector("#heading");
 
 button.onclick = applyStyle
 
@@ -28,6 +29,13 @@ function applyStyle(){
         if(roll[e]=== 4) elements[e].className = 'die-four';
         if(roll[e] === 5) elements[e].className = 'die-five';
         if(roll[e]=== 6) elements[e].className = 'die-six';
-        }    
+        }
+    
+    if(roll[0] > roll[1]) {
+        heading.textContent = "Player 1 Wins!"
+    } else if (roll[0] === roll[1]) {
+        heading.textContent = "Draw!"
+    } else {
+        heading.textContent = "Player 2 Wins!"
+    }
 }
-

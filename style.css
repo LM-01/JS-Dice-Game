@@ -1,8 +1,39 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Pacifico', cursive; */
+
 body {
+    background-color: rgb(50, 52, 54);
+    color: rgb(26, 201, 201);
+}
+
+#header {
+    display: inline;
     text-align: center;
+}
+
+#header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+.button {
+    margin: 5% auto 1%;
+    display: block;
+}
+
+.dice-col {
     display: inline-block;
 }
 
-.centered {
-    
+.left-col {
+    padding-right: 10%;
+}
+
+.right-col {
+    padding-left: 10%;
+}
+
+.dice-col h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
 }
